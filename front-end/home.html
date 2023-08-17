@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Twitch clone</title>
+</head>
+
+<body id="body">
+    <header style="background-color: white; ">
+        <div style="margin-top: 20px;" class="container-fluid">
+            <div style="display: flex; justify-content: space-between ;flex-wrap: wrap;">
+                <div> <a href="index.html"><img id="logo" style="width: 50px;"
+                            src="https://www.freepnglogos.com/uploads/purple-twitch-logo-png-18.png" /></a>
+                </div>
+
+                <div >
+                    <form style="display: flex;justify-content: space-around;">
+                        <input id="search-text"
+                            style="height: 2.6em; border-radius: 10px; width: 150%; margin-left: -50%; margin-top: 10px;"
+                            placeholder="search valid channel" type="text" />
+                        <i id="search-btn" style="font-size: 2.0em; margin-top: 10px; "
+                            class="fa-solid fa-magnifying-glass"></i>
+
+                    </form>
+                </div>
+                <div >
+                    <img src="https://img.freepik.com/free-icon/user_318-749758.jpg?t=st=1692277702~exp=1692278302~hmac=d595142fdd8fe62d94351c42842e82ed9a7307cb61a3d16acd9ff26db0b59e71"
+                        alt="" width="30px">
+                    <span id="my-email"></span>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <hr />
+    <div style=" display: flex;" id="mainpage">
+        <aside id="aside">
+            <ul class="list-unstyled" style=" margin-left: 3%; ">
+                <li style="font-size: 200%; "><a href="index.html" style="color: black;">home</a></li>
+                <hr>
+                <li style="font-size: 200%; "><a href="index.html" style="color: black;">history</a></li>
+                <hr>
+                <li style="font-size: 200%; "><a href="index.html" style="color: black;">subscribed</a></li>
+                <hr>
+                <li style="font-size: 200%; "><a href="index.html" style="color: black;">settings</a></li>
+                <hr>
+            </ul>
+        </aside>
+
+        <div id="my-div2" style="width: 0%;"></div>
+
+
+        <div id="my-div" style="display: flex; justify-content: center; flex-wrap: wrap;" class="container"></div>
+
+    </div>
+
+
+    <script src="./main2.js"></script>
+</body>
+
+</html>
