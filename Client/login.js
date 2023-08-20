@@ -29,7 +29,7 @@ document.getElementById('submit-btn').addEventListener('click', (e) => {
                 console.log(res);
                 for (let i = 0; i < res.length; i++) {
                     if (res[i].email == user_email && res[i].password == user_password) {
-                        window.location.href = "http://127.0.0.1:5500/Client/home.html"
+                        window.location.href = "./home.html"
                     }
                     if (res[i].email != user_email && res[i].password != user_password) {
                         document.getElementById('message').innerHTML = "incorrect password or email"
