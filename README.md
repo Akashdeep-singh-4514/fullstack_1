@@ -1,1 +1,1 @@
-this is my first full-stack project in which I created my own backend and front end where one can sign-up and login and watch live streams of Twitch on the website
+this is my first full-stack project in which I created my own backend using Spring FrameWork and front-end using HTML,CSS and JS where one can sign-up and login and User details are stored in PostgreSQL and watch live streams of Twitch on the website
