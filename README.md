@@ -1,1 +1,6 @@
-this is my first full-stack project in which I created my own backend using Spring FrameWork and front-end using HTML,CSS and JS where one can sign-up and login and User details are stored in PostgreSQL and watch live streams of Twitch on the website
+## Twitch-Clone 🔗 
+### A Spring and PostgreSQL full-stack project.
+• Tools & Technologies: HTML, CSS, JavaScript, Spring Framework, PostgreSQL, Java
+• Features: SignUp, SignIn, Logout Users, Choose/Search Live Streams to watch 
+• Fetch APIs in Real-Time
+• Live Streaming Videos
